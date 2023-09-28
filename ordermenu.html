@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Menu</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="css/ordermenu.css">
+   </head>
+   <body>
+      <div class="header_section header_bg">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand"href="index.html"><img src="images/reallogo.png"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="coffees.html">Coffees</a>
+                     </li>
+                   
+                    
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                     <div class="login_bt">
+                        <ul>
+                           <li><a href="login.html"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </form>
+
+                  <div class="socialmedialink">
+                     <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #255ec1;" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #feda75;" aria-hidden="true"></i></a>
+
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- header section end -->
+      <!-- coffee section start -->
+      <div class="coffee_section layout_padding my-4">
+        <div class="coffeeorderform">
+            <form action="#">
+                <h1>Coffee order form</h1>
+                <div class="coffeeitemmenu">
+                    <div class="coffeeitembox">
+                        <div class="coffeeimage">
+                            <img src="productimage/barista.jpg" alt="coffeemenuitemimage">
+
+                        </div>
+                        <div class="coffeeitemcontent">
+                            <h4>Espresso</h4>
+                            <h3>$5.00</h3>
+                            <label><h4>Quantity</h4></label><br>
+                            <input type="number" name="itemqty" class="coffeeqty"><br>
+
+                            <button class="addtocart" name="addcart">Add to cart</button>
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="coffeetypechoice">
+                        <form action="#">
+                            <div class="coffeeoptionform">
+                                <div class="coffeesize">
+                                    <label><h4>Select coffee size</h4></label><br>
+                                    <select name="coffeesize" class="coffeetype">
+                                        <option value="Please select">Please select</option>
+                                        <option value="Large">Large</option>
+                                        <option value="medium">Medium</option>
+                                        <option value="small">Small</option>
+                                      </select>
+
+                                </div>
+
+                                <div class="coffeesize">
+                                    <label><h4>Select Milk Type</h4></label><br>
+                                    <select name="milktype" class="coffeetype">
+                                        <option value="Please select">Please select</option>
+                                        <option value="Full cream milk">Full Cream Milk</option>
+                                        <option value="skinny milk">Skinny Milk</option>
+                                        <option value="Lactosefreemilk">Lactose-free Milk</option>
+                                        <option value="almond">Almond Milk</option>
+                                      </select>
+
+                                </div>
+
+                                <div class="coffeesize">
+                                    <label><h4>Add Surup</h4></label><br>
+                                    <select name="syrup" class="coffeetype">
+                                        <option value="Please select">Please select</option>
+                                        <option value="Caramelsyrup">Caramel syrup</option>
+                                        <option value="hazelnutsyrup">Hazelnut syrup</option>
+                                        <option value="vanillasyrup">Vanilla syrup</option>
+                                        <option value="Honey">Honey</option>
+                                      </select>
+
+                                </div>
+
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+  <div class="coffeetextcontent">              
+<div class="sugarnum">
+    <label for="sugarno"><H3>Add Number of suger:</H3></label>
+
+    <input type="number" name="sugerno" id="sugarno">
+
+</div>
+
+<div class="addnote">
+    <label for="addnote">Additional Notes</label><br>
+    <textarea name="addnote" id="addnote" cols="30" rows="10"></textarea>
+
+
+</div>
+
+<div class="paymentbtn">
+    <button class="paybtn" onclick="window.location.href='paymentbox.html'">Continue to payment</button>
+
+</div>
+</div>
+
+            </form>
+
+        </div>
+
+      </div>
+      <!-- coffee section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+               <!--  FOOTER START -->
+  
+<div class="footer">
+   <div class="inner-footer">
+ 
+ <!--  for company name and description -->
+     <div class="footer-items">
+       <h1>Northside Cafe</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+     </div>
+ 
+ <!--  for quick links  -->
+     <div class="footer-items">
+       <h3>Trading Hours</h3>
+       <div class="border1"></div> <!--for the underline -->
+         <ul>
+           <li>Monday</li>
+           <li>Tuesday</li>
+           <li>Wednesday</li>
+           <li>Thrusday</li>
+           <li>Friday</li>
+           <li>Weekend</li>
+         </ul>
+     </div>
+ 
+ <!--  for some other links -->
+     <div class="footer-items">
+       <h3>Payment accepted</h3>
+       <div class="border1"></div>  <!--for the underline -->
+         <ul>
+           <a href="#"><li class="cards"><i class="fa-brands fa-cc-mastercard fa-2xl" style="color: #ffffff;"></i></li></a>
+           <a href="#"><li class="cards"><i class="fa-brands fa-cc-visa fa-2xl" style="color: #ffffff;"></i></li></a>
+           <a href="#"><li class="cards"><i class="fa-regular fa-credit-card fa-2xl" style="color: #ffffff;"></i></li></a>
+          
+         </ul>
+     </div>
+ 
+ <!--  for contact us info -->
+     <div class="footer-items">
+       <h3>Contact us</h3>
+       <div class="border1"></div>
+         <ul>
+           <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+           <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+           <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+         </ul> 
+       
+ <!--   for social links -->
+         <div class="social-mediaicons">
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-facebook"></i></a>
+           <a href="#"><i class="fab fa-google-plus-square"></i></a>
+         </div> 
+     </div>
+   </div>
+   
+
+  
+ </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6 col-sm-12">
+                  <p class="copyright_text">Copyright 2023-2025  - All rights reserved - Northside Cafe     ABN(Number) </p>
+               </div>
+               <div class="col-lg-6 col-sm-12">
+                  <div class="footer_social_icon">
+                     <ul>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https://kit.fontawesome.com/927b7fa170.js" crossorigin="anonymous"></script>
+   </body>
+</html>

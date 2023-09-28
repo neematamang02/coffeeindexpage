@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Josefin+Sans:wght@700&family=Poppins:wght@500&display=swap');
+
+
+
+
+
+
+
+.menu {
+ 
+    text-align: center;
+   
+}
+
+
+
+.menucontainer{
+
+    margin-top: 30px;
+}
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+.menu .menucontent img {
+    max-width: 20%; 
+    height: auto;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    transition: transform 0.3s; 
+}
+
+
+.menu .menucontent img:hover{
+    transform: scale(1.1);
+}
+
+.selected-items {
+    margin-top: 20px;
+}
+
+
+.aboutuscontent1{
+   display: flex;
+    justify-content:center;
+    height: 450px;
+
+    
+}
+
+
+.aboutuscontent1 .aboutusinfo{
+    text-align: right;
+}
+
+
+
+
+.aboutusinfo{
+    width:40%;
+ 
+    background-color: #974f41;
+    padding: 40px;
+}
+
+
+.aboutusinfo h1{
+    background-color: transparent;
+    color: white;
+}
+
+.aboutusinfo p{
+    background-color: transparent;
+    color: white;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.aboutimage img{
+    height: 450px;
+    width: 600px;
+    object-fit: cover;
+     
+}
+
+.readmorebtn{
+    height: 40px;
+    width: 150px;
+    background-color:white;
+    color: #0C4C91;
+    border-color: transparent;
+    margin-top: 20px;
+
+}
+
+
+.readmorebtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: ease-in-out 0.1s;
+}
+
+
+.aboutusinfo h1{
+    font-family: 'Hind Madurai', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.menu h2{
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500 ;
+}
+
+.menucontent{
+   
+    justify-content: space-evenly;
+
+}
+
+
+.coffeeimage img{
+    height: 80px;
+    width: 80px;
+}
+
+.coffeeitembox{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #E2CFBA;
+    justify-content: space-between;
+   padding:30px;
+  
+    border-radius: 15px;
+    
+}
+
+
+.coffeeqty{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: transparent;
+    padding-left: 5px;
+}
+
+.addtocart{
+    height: 35px;
+    width: 120px;
+    background-color: #5D534A;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.coffeeitemmenu{
+    display: flex;
+    width:800px;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+
+.coffeetype{
+    width: 200px;
+
+}
+
+.coffeesize label{
+    margin-top: 10px;
+}
+
+
+.coffeeorderform{
+    height:auto;
+    width: 100%;
+    background-color: #EFEFEE;
+    margin: auto;
+    padding: 20px;
+}
+
+.coffeeorderform h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:600;
+    font-size: 35px;
+    color: #6A532D;
+    margin-bottom: 25px;
+
+}
+
+.coffeetextcontent{
+   width: 600px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+.sugarnum input{
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    border-color: transparent;
+    padding-left: 5px;
+}
+
+.addnote textarea{
+    width: 100%;
+    border-radius: 5px;
+    border-color: transparent;
+    padding-left: 5px;
+}
+
+.paybtn{
+    height: 40px;
+    width: 180px;
+    background-color: #5D534A;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    
+}
+
+
+.checkoutbtn{
+    height: 40px;
+    width: 300px;
+    background-color: #E58A76;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+
+
+.paymenttext h1{
+    font-family: sans-serif;
+    color: #2C3E50;
+    font-weight: bold;
+}
+.paymentbtn{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+.paymentcontainer{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.paymentform{
+    background-color:#ddd;
+    padding: 150px;
+}
+
+.paymentform form{
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+.paymentcontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardimage img{
+    height: 50px;
+    width: 50px;
+}
+
+.paymentformcontrol input{
+    width:300px;
+    height: 40px;
+}
+@media screen and (max-width:1034px)
+{
+
+    
+.aboutuscontent1{
+    display: block;
+  
+ 
+     
+ }
+
+ .aboutuscontent1 .aboutusinfo{
+    text-align: center;
+ }
+   .aboutusinfo{
+    width: 100%;
+   }
+
+   .menucontainer{
+    margin-top: 350px;
+   }
+
+
+   .aboutimage img{
+    height: 450px;
+    width: 100%;
+    object-fit: fill;
+   }
+}
+
+
+@media screen and (max-width:705px)
+{
+    .menucontainer{
+        margin-top: 410px;
+    }
+}
+
+
+@media screen and (max-width:550px)
+{
+    .menucontainer{
+        margin-top: 470px;
+    }
+}
+
+
+@media screen and (max-width:456px)
+{
+    .menucontainer{
+        margin-top: 550px;
+    }
+    .menu .menucontent img{
+       
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width:836px)
+{
+    .coffeeitemmenu{
+        width: 100%;
+    }
+
+
+    .coffeetextcontent{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1085px)
+{
+
+
+    .paymentright{
+        margin-top: 20px;
+    }
+    .paymentcontent{
+        display: block;
+    }
+
+    .paymentbtn{
+        text-align: left;
+    }
+
+
+    .paymentformcontrol input{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:701px){
+    .checkoutbtn{
+        width: 200px;
+    }
+
+    .paymentform{
+        padding:0;
+    }
+
+}
+
+
+@media screen and (max-width:400px){
+
+    .paymentform form{
+        padding: 20px;
+    }
+}
+
+
+
